@@ -11,7 +11,7 @@
        var num = 20;
         console.log(num); // num =  20
       }
-      console.log(a);  // num = 20
+      console.log(num);  // num = 20
     }
 
 
@@ -24,7 +24,7 @@
        var num = 20;       // error
         console.log(num); 
       }
-      console.log(a);  // num = 20
+      console.log(num);  // num = 20
     }
 
 ### Use of const
@@ -36,7 +36,7 @@
        var num = 20;       // error
         console.log(num); 
       }
-      console.log(a);  // num = 20
+      console.log(num);  // num = 20
     }
     
  ## 2. What is global namespace
