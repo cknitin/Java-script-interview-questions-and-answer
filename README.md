@@ -1,6 +1,6 @@
 # Java script interview questions and answer
 
-## 1. var vs let const
+## 1. var vs let vs const
 
 ### Use of var
 
