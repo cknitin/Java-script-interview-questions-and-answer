@@ -102,3 +102,9 @@ syntax - (()=> {.....})()
 
     console.log(nitin.city); -->  n/a
 
+    nitin.name = 'Nitin';
+    employee.prototype.sayHello = function() { return 'Hello '+ this.name};
+
+    nitin.sayHello()  ---> Hi, Nitin
+
+
