@@ -39,7 +39,7 @@
       console.log(a);  // num = 20
     }
     
- ## 1. What is global namespace
+ ## 2. What is global namespace
 
 var name = 'nitin': --> Hit enter
 
@@ -47,7 +47,7 @@ now, it can be access like
 
 window.name; ---> it will show nitin
 
-## What is IIFE function?
+## 3. What is IIFE function?
 
 ### Answer: An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined.
 
@@ -70,5 +70,13 @@ syntax - (()=> {.....})()
         // Immediately creates the output: 
         result; // "James"
 
+## 3. What is the use of "this" in javascript?
 
+        this === window --> true
 
+        var objMy = {
+            name: 'nitin',
+            sayHello :function() { return 'Hello,'+ this.name; }
+        }
+        
+        objMy.sayHello();  ---> Hello, Nitin
