@@ -46,3 +46,27 @@ var name = 'nitin': --> Hit enter
 now, it can be access like
 
 window.name; ---> it will show nitin
+
+## What is IIFE function?
+
+### Answer: An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined.
+
+        (function () {
+            var name = "Barry";
+        })();
+
+        // Variable name is not accessible from the outside scope
+        
+        name // throws "Uncaught ReferenceError: aName is not defined"
+      
+ next, 
+ 
+        var result = (function () {
+            var name = "James"; 
+            return name; 
+        })(); 
+        // Immediately creates the output: 
+        result; // "James"
+
+
+
