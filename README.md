@@ -168,4 +168,22 @@ next example,
 
 	myFunc1.apply(myObj, [2, 3]);
 
+## 8. bind in javascript
+
+	var myObj = {
+	num1: 2,
+	num2: 3,
+	}
+
+	var myFunc = function () {
+		return this.num1 + this.num2;
+	}
+
+	myFunc();
+
+	var added = myFunc.bind(myObj);
+	
+	added();  ---> 5
+
+
 	
