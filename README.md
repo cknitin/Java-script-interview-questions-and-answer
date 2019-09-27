@@ -80,3 +80,14 @@ syntax - (()=> {.....})()
         }
         
         objMy.sayHello();  ---> Hello, Nitin
+
+
+## 4. Object creation in JavaScript
+
+        var person = function(name, city) {
+            this.name = name;
+            this.city = city;
+        };
+        
+        var nitin = new person('nitin', 'newyork');
+
