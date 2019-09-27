@@ -107,4 +107,17 @@ syntax - (()=> {.....})()
 
     nitin.sayHello()  ---> Hi, Nitin
 
+## 6. Call in javascript
 
+    var myObj = {
+	name: 'Nitin'
+    }
+
+    var sayHello = function() {
+        return 'Hello ' + this.name;
+    }
+
+    sayHello();
+
+    sayHello.call(myObj);	----> Hello Nitin
+	
