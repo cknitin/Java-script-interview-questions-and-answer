@@ -185,5 +185,17 @@ next example,
 	
 	added();  ---> 5
 
+## 9. class in javascript
 
-	
+	class person {
+		constructor(name, age) {
+			this.name = name;
+			this.age = age;
+		}
+
+		sayHello() {
+			return 'Hello, ' + this.name;
+		}
+	}
+
+	var james = new person('James', 30);	
