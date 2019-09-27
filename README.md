@@ -38,3 +38,11 @@
       }
       console.log(a);  // num = 20
     }
+    
+ ## 1. What is global namespace
+
+var name = 'nitin': --> Hit enter
+
+now, it can be access like
+
+window.name; ---> it will show nitin
