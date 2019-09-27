@@ -120,4 +120,23 @@ syntax - (()=> {.....})()
     sayHello();
 
     sayHello.call(myObj);	----> Hello Nitin
+
+next example,
+
+
+	var myObj = {
+	num: 2
+	}
+
+	var myFunc = function (add) {
+
+		return this.num + add;
+	}
+
+	myFunc()  ----> NaN
+
+	myFunc(2) ----> NaN
+
+	myFunc.call(myObj, 2); ----> 4
+
 	
