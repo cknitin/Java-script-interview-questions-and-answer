@@ -139,4 +139,33 @@ next example,
 
 	myFunc.call(myObj, 2); ----> 4
 
+next example,
+
+	var myObj = {
+	num: 2
+	}
+
+
+	var myFunc1 = function (num1, num2) {
+
+		return this.num + num1 + num2;
+	}
+
+	myFunc1.call(myObj, 2, 3);
+
+
+## 7. apply in javascript
+
+	var myObj = {
+	num: 2
+	}
+
+
+	var myFunc1 = function (num1, num2) {
+
+		return this.num + num1 + num2;
+	}
+
+	myFunc1.apply(myObj, [2, 3]);
+
 	
