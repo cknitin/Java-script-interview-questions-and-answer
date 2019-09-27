@@ -91,3 +91,14 @@ syntax - (()=> {.....})()
         
         var nitin = new person('nitin', 'newyork');
 
+## 5. proptotype in javascript
+
+    var employee = function(){};
+
+    employee.prototype.name = "n/a"
+    employee.prototype.age = "0"
+
+    var nitin = new employee();
+
+    console.log(nitin.city); -->  n/a
+
